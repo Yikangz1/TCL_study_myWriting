@@ -1,3 +1,4 @@
+
 #!/usr/bin/tclsh
 puts "*******hello tcl********"
 puts "*******hello tcl2********"; #investigate the comments usage: only after the semicolon";", the comments are valid
@@ -15,7 +16,7 @@ proc tgreg {pattern filename} {
 																															                       puts stdout $line
 																											                              }
 																											}
-                               puts $f "test";# write "test" into the opened file, which $f pointing to.
+                              # puts $f "test";# write "test" into the opened file, which $f pointing to.
                                close $f;# after the operation for the opened file, pls close it. 
 														            	 
                               }
@@ -102,11 +103,8 @@ pwd
 cd ../
 puts [pwd]
 #source ./hello.tcl
-see
+#see
 # ******************read the ith row of a file (end) *********************
-
-
-
 
 
 
